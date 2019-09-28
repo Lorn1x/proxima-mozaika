@@ -1,0 +1,232 @@
+<style>
+  body {
+    margin: 0;
+    font-family: Bahnschrift;
+  }
+
+  .grid {
+    margin: 0 auto;
+  }
+
+  .grid-item>img {
+    width: 370px;
+    /*margin-bottom: 4px;*/
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .overlay:hover {
+    background-color: rgba(233, 105, 0, 0.75);
+    opacity: 1;
+  }
+
+  .grid-item .overlay .name {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .grid-item .overlay .motto {
+    text-align: justify;
+    margin: 0 auto;
+    padding: 17px;
+  }
+</style>
+
+<body>
+
+  <div class="grid">
+
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Petr Balvín</div>
+        <div class="motto">„Není hloupý ten, kdo se zeptá, nýbrž ten, kdo se neptá.“ Podle tohoto hesla se snažím řídit vždy, protože si myslím, že je velice důležité snažit se poznávat svět kolem nás.</div>
+      </div>
+      <img src="./imgs/Balvín_2.jpg">
+    </div>
+    <div class="grid-item">
+        <div class="overlay">
+            <div class="name">Anežka Černá</div>
+            <div class="motto">Nejšťastnější jsem, když jsem v tzv. zvídavé náladě. Když chytnu touhu po sebevzdělávání, něco mě opravdu zajímá a naplňuje. Když se posunu zase o kousek dál.</div>
+          </div>
+      <img src="./imgs/Černá_2.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Metoděj Černý</div>
+        <div class="motto">„Radovat se z maličkostí.“ Mám radost, když se mi podaří překonat překážky.</div>
+      </div>
+      <img src="./imgs/Černý_2.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Tomáš Dulava</div>
+        <div class="motto">Matematika je velice užitečný stroj pro řešení mnoha problémů a informatika je způsob, jak tyto metody použít v praxi.</div>
+      </div>
+      <img src="./imgs/Dulava_2b.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Markéta Haladejová</div>
+        <div class="motto">„Když něco chceš, tak za tím musíš jít!“</div>
+      </div>
+      <img src="./imgs/Haladějová M_2a.jpg">
+    </div>
+    <div class="grid-item">
+        <div class="overlay">
+          <div class="name">Bára Haladejová</div>
+          <div class="motto">„Přála bych si aspoň rok studovat na univerzitě v Cambridge, stát se lékařkou a mít příležitost vyjet do zahraničí a pomáhat lidem v chudých částech světa“
+            </div>
+        </div>
+        <img src="./imgs/Haladějova B_2a.jpg">
+      </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Dominik John</div>
+        <div class="motto">„Nejvíce mě ovlivňují osobní setkání s inspirativními lidmi, kteří ve svých oborech ušli již dlouhou cestu.“ „Pokud neproměníte svůj život v příběh, stanete se jen částí cizího příběhu.“ Autorem tohoto motta je Terry Pratchett, můj oblíbený spisovatel.
+          </div>
+      </div>
+      <img src="./imgs/John_2a.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Patrik Kula</div>
+        <div class="motto">Soutěžím, experimentuji a učím se</div>
+      </div>
+      <img src="./imgs/Kula_2a.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Lucie Kunčarová</div>
+        <div class="motto">„V životě nelituji toho, co jsem udělala, ale toho, co jsem neudělala“. Ráda bych studovala mezinárodně uznávanou prestižní univerzitu a přála bych si zúčastnit se stáže ve společnosti Google.</div>
+      </div>
+      <img src="./imgs/Kunčarova_2.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Eliška Malcharcziková</div>
+        <div class="motto">Motto „Nikdy se nevzdávej!“ používám pokaždé, když je přede mnou jakákoli výzva.</div>
+      </div>
+      <img src="./imgs/Malcharzikova_2.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Pavla Marschalková</div>
+        <div class="motto">„Všechno je možné, když máš víru.“</div>
+      </div>
+      <img src="./imgs/Marschalková_2b.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Radek Mielec</div>
+        <div class="motto">„Nikdy neříkej nikdy“ vzpomenu si na ně vždy, když se dostanu do situace, kde se musím rozhodnout, jestli něco udělat, nebo ne.</div>
+      </div>
+      <img src="./imgs/Mielec_2.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Michal Mikeska</div>
+        <div class="motto">Mám 2 oblíbená životní hesla: „A person who never made a mistake never tried anything new“ Albert Einstein<br>
+          „If you don´t ask the answer is always no“ Nora Roberts
+            </div>
+      </div>
+      <img src="./imgs/Mikeska_2.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Max Mrštík</div>
+        <div class="motto">„Go big or go home“. Motivuje mě k tomu, abych chytil sebešílenější příležitost za pačesy a udělal všechno pro to, abych uspěl. Je velmi ambiciózní, čiší z něj odhodlanost.</div>
+      </div>
+      <img src="./imgs/Mrštík_2a.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Jaromír Ožana</div>
+        <div class="motto">Nejsi velký tím co máš, ale tím co děláš.</div>
+      </div>
+      <img src="./imgs/Ožana_2a.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Jana Pekařová</div>
+        <div class="motto">„Jestli najdeš v životě cestu bez překážek, určitě nikam nevede.“ Arthur C. Clarke<br>Líbí se mi tento citát, vždy si na něj vzpomenu, když nejde vše podle mých představ.</div>
+      </div>
+      <img src="./imgs/Pekařová_2.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Michal Petřík</div>
+        <div class="motto">Podstatné je věřit sám sobě a nevzdávat se na cestě za svými sny.</div>
+      </div>
+      <img src="./imgs/Petřík_2a.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Vít Pískovský</div>
+        <div class="motto">Pro mé směrování mi nejvíce pomohlo umění naslouchat lidem nejen z matematických oborů, kteří jsou pro mě velkou inspirací.</div>
+      </div>
+      <img src="./imgs/Pískovský_2.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Matěj Prokop</div>
+        <div class="motto">Nevadí mi nést odpovědnost, baví mě organizovat tým a jsem poměrně zdatný ve vyjednávání. Chci přispět zlepšení informovanosti studentů o možnostech studia a celkové koncepci vzdělávání.</div>
+      </div>
+      <img src="./imgs/Prokop.JPG">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Martin Vaněk</div>
+        <div class="motto">Aktivně se účastním aplikovaného výzkumu biotechnologie zpracovávající odpadní potravinářské oleje na biologicky odbouratelné plasty, jsem součástí základního zkoumání možností utilizace odpadních živočišných tuků pomocí kvasinek. Za svůj dosavadní největší úspěch považuji založení vlastní, zajištěné rodiny.</div>
+      </div>
+      <img src="./imgs/Vaněk_2.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Vladan Vítek</div>
+        <div class="motto">„Každý neúspěch je jen dílčí neúspěch, pokud ho následně vlastní snahou překonám.“</div>
+      </div>
+      <img src="./imgs/Vítek_2.jpg">
+    </div>
+    <div class="grid-item">
+      <div class="overlay">
+        <div class="name">Radek Zajíček</div>
+        <div class="motto">Zajímá mě, jak věci fungují a baví mě hledat souvislosti mezi nimi.</div>
+      </div>
+      <img src="./imgs/Zajíček.JPG">
+    </div>
+
+  </div>
+
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+  <script>
+
+    var elem = document.querySelector('.grid');
+    var msnry = new Masonry(elem, {
+      itemSelector: '.grid-item',
+      columnWidth: 370,
+      gutter: 0,
+      fitWidth: true,
+      stagger: 20,
+    });
+
+  </script>
+
+</body>
+
+</html>
