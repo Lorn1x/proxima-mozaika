@@ -4,16 +4,12 @@
     font-family: Bahnschrift;
   }
 
-  html, body {
-    overflow: hidden;
-  }
-
   .grid {
     margin: 0 auto;
   }
 
   .grid-item>img {
-    width: 370px;
+    width: 200px;
     /*margin-bottom: 4px;*/
   }
 
@@ -223,7 +219,7 @@
     var elem = document.querySelector('.grid');
     var msnry = new Masonry(elem, {
       itemSelector: '.grid-item',
-      columnWidth: 370,
+      columnWidth: 200,
       gutter: 0,
       fitWidth: true,
       stagger: 20,
