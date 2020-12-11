@@ -4,12 +4,16 @@
     font-family: Bahnschrift;
   }
 
+  html, body {
+    overflow: hidden;
+  }
+
   .grid {
     margin: 0 auto;
   }
 
   .grid-item>img {
-    width: 200px;
+    width: 370px;
     /*margin-bottom: 4px;*/
   }
 
@@ -69,14 +73,14 @@
     <div class="grid-item">
       <div class="overlay">
         <div class="name">Metoděj Černý</div>
-        <div class="motto">„Radovat se z maličkostí.“ Mám radost, když se mi podaří překonat překážky.</div>
+        <div class="motto">„Radovat se z maličkostí.“ Mám radost, když se mi podaří překonat překážky.</div>
       </div>
       <img src="./imgs/Černý_2.jpg">
     </div>
     <div class="grid-item">
       <div class="overlay">
         <div class="name">Tomáš Dulava</div>
-        <div class="motto">Matematika je velice užitečný stroj pro řešení mnoha problémů a informatika je způsob, jak tyto metody použít v praxi.</div>
+        <div class="motto">Matematika je velice užitečný stroj pro řešení mnoha problémů a informatika je způsob, jak tyto metody použít v praxi.</div>
       </div>
       <img src="./imgs/Dulava_2b.jpg">
     </div>
@@ -90,7 +94,7 @@
     <div class="grid-item">
         <div class="overlay">
           <div class="name">Bára Haladejová</div>
-          <div class="motto">„Přála bych si aspoň rok studovat na univerzitě v Cambridge, stát se lékařkou a mít příležitost vyjet do zahraničí a pomáhat lidem v chudých částech světa“
+          <div class="motto">„Přála bych si aspoň rok studovat na univerzitě v Cambridge, stát se lékařkou a mít příležitost vyjet do zahraničí a pomáhat lidem v chudých částech světa“
             </div>
         </div>
         <img src="./imgs/Haladějova B_2a.jpg">
@@ -98,7 +102,7 @@
     <div class="grid-item">
       <div class="overlay">
         <div class="name">Dominik John</div>
-        <div class="motto">„Nejvíce mě ovlivňují osobní setkání s inspirativními lidmi, kteří ve svých oborech ušli již dlouhou cestu.“ „Pokud neproměníte svůj život v příběh, stanete se jen částí cizího příběhu.“ Autorem tohoto motta je Terry Pratchett, můj oblíbený spisovatel.
+        <div class="motto">„Nejvíce mě ovlivňují osobní setkání s inspirativními lidmi, kteří ve svých oborech ušli již dlouhou cestu.“ „Pokud neproměníte svůj život v příběh, stanete se jen částí cizího příběhu.“ Autorem tohoto motta je Terry Pratchett, můj oblíbený spisovatel.
           </div>
       </div>
       <img src="./imgs/John_2a.jpg">
@@ -113,7 +117,7 @@
     <div class="grid-item">
       <div class="overlay">
         <div class="name">Lucie Kunčarová</div>
-        <div class="motto">„V životě nelituji toho, co jsem udělala, ale toho, co jsem neudělala“. Ráda bych studovala mezinárodně uznávanou prestižní univerzitu a přála bych si zúčastnit se stáže ve společnosti Google.</div>
+        <div class="motto">„V životě nelituji toho, co jsem udělala, ale toho, co jsem neudělala“. Ráda bych studovala mezinárodně uznávanou prestižní univerzitu a přála bych si zúčastnit se stáže ve společnosti Google.</div>
       </div>
       <img src="./imgs/Kunčarova_2.jpg">
     </div>
@@ -150,7 +154,7 @@
     <div class="grid-item">
       <div class="overlay">
         <div class="name">Max Mrštík</div>
-        <div class="motto">„Go big or go home“. Motivuje mě k tomu, abych chytil sebešílenější příležitost za pačesy a udělal všechno pro to, abych uspěl. Je velmi ambiciózní, čiší z něj odhodlanost.</div>
+        <div class="motto">„Go big or go home“. Motivuje mě k tomu, abych chytil sebešílenější příležitost za pačesy a udělal všechno pro to, abych uspěl. Je velmi ambiciózní, čiší z něj odhodlanost.</div>
       </div>
       <img src="./imgs/Mrštík_2a.jpg">
     </div>
@@ -171,7 +175,7 @@
     <div class="grid-item">
       <div class="overlay">
         <div class="name">Michal Petřík</div>
-        <div class="motto">Podstatné je věřit sám sobě a nevzdávat se na cestě za svými sny.</div>
+        <div class="motto">Podstatné je věřit sám sobě a nevzdávat se na cestě za svými sny.</div>
       </div>
       <img src="./imgs/Petřík_2a.jpg">
     </div>
@@ -219,7 +223,7 @@
     var elem = document.querySelector('.grid');
     var msnry = new Masonry(elem, {
       itemSelector: '.grid-item',
-      columnWidth: 200,
+      columnWidth: 370,
       gutter: 0,
       fitWidth: true,
       stagger: 20,
