@@ -12,6 +12,10 @@
     margin: 0 auto;
   }
 
+  #grid {
+    display: none;
+  }
+
   .grid-item>img {
     width: 370px;
     /*margin-bottom: 4px;*/
@@ -54,7 +58,7 @@
 
 <body>
 
-  <div class="grid">
+  <div class="grid" id="grid">
 
     <div class="grid-item">
       <div class="overlay">
@@ -217,7 +221,8 @@
     <div class="grid-item">
       <div class="overlay">
         <div class="name">Ota Michálek</div>
-        <div class="motto"></div>
+        <div class="motto">Naše zkušenosti nejsou definované čirým úspěchem, ale i tím co se nám
+          nepodařilo a jak jsme se z toho poučili.</div>
       </div>
       <img src="./imgs/Michálek_m.jpg">
     </div>
@@ -226,7 +231,8 @@
 
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
   <script>
-
+  window.onload = function() {
+    document.getElementById("grid").style.display = "initial";
     var elem = document.querySelector('.grid');
     var msnry = new Masonry(elem, {
       itemSelector: '.grid-item',
@@ -235,7 +241,7 @@
       fitWidth: true,
       stagger: 20,
     });
-
+  }
   </script>
 
 </body>
