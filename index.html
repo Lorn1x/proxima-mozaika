@@ -232,16 +232,19 @@
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
   <script>
   window.onload = function() {
-    document.getElementById("grid").style.display = "initial";
-    var elem = document.querySelector('.grid');
-    var msnry = new Masonry(elem, {
-      itemSelector: '.grid-item',
-      columnWidth: 370,
-      gutter: 0,
-      fitWidth: true,
-      stagger: 20,
-    });
-  }
+    setTimeout(function() {
+      document.getElementById("grid").style.display = "initial";
+      var elem = document.querySelector('.grid');
+      var msnry = new Masonry(elem, {
+        itemSelector: '.grid-item',
+        columnWidth: 370,
+        gutter: 0,
+        fitWidth: true,
+        stagger: 20,
+      });
+    }, 400)
+    }
+    
   </script>
 
 </body>
